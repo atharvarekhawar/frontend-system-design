@@ -76,7 +76,7 @@ function App() {
       <br />
       <br />
       <br />
-      <div ref={ref}>
+      <div ref={ref} style={{ height: "30px" }}>
         <Suspense fallback="Loading">{inView && <Emoji />}</Suspense>
       </div>
     </>
